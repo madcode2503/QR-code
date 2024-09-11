@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: url(".\\cute-corgi-pictures-klvh4ulq6nwlnc6c.jpg")  left;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 90vh;
+}
+.container{
+    width: 300px;
+    background-color: white;
+    border: 50px;
+    border-color: white;
+    border-style:solid;
+    border-radius: 30px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.ip{
+    margin-bottom: 20px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+.submit button{
+    width:  95px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#imgbox{
+    width: 150px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+#imgbox img{
+    width: 100%;
+    padding: 10px;
+}
+#imgbox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid ;
+    
+}
